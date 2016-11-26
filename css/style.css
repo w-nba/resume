@@ -635,6 +635,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+/* message Section */
+#message {
+	padding: 80px 0 40px 0;
+	color: #f4f5f6;
+	background: url(../img/skills-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 /* Footer Section*/
 #footer {
 	background: #2c3e50;
