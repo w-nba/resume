@@ -1,7 +1,6 @@
 body, html {
 	font-family: 'Helvetica Neue', Helvetica, Microsoft Yahei; word-spacing: 0.01em; font-weight: 300; letter-spacing: 0.05em;
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
+
 	color: #616e7c;
 	width: 100% !important;
 	height: 100% !important;
@@ -636,19 +635,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 /* message Section */
-#message {
+#ms{
 	padding: 80px 0 40px 0;
 	color: #f4f5f6;
 	background: url(../img/skills-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 /* Footer Section*/
 #footer {
 	background: #2c3e50;
 	color: #ddd;
-	padding: 30px 0 25px 0;
+	padding: 17px 0 13px 0;
 }
 #footer .fnav {
 	vertical-align: middle;
@@ -769,4 +767,10 @@ header .intro-text {
 .timeline>li.timeline-inverted>.timeline-panel {
 	padding: 10px 100px 20px 20px;
 }
+}
+//////////////////////ali字体
+.social .icon{
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
 }
